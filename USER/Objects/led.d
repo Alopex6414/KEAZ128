@@ -1,0 +1,12 @@
+.\objects\led.o: ..\Chip\LED.c
+.\objects\led.o: ..\Chip\Common.h
+.\objects\led.o: D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\SKEAZ1284.h
+.\objects\led.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led.o: D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h
+.\objects\led.o: D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\led.o: D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\led.o: D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\system_SKEAZ1284.h
+.\objects\led.o: ..\Chip\typedefs.h
+.\objects\led.o: ..\App\Conf.h
+.\objects\led.o: ..\Chip\LED.h
+.\objects\led.o: ..\Chip\GPIO.h

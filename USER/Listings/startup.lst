@@ -1,0 +1,47 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ;
+    2 00000000         ;    COPYRIGHT NOTICE
+    3 00000000         ;     Copyright(c) 2016, Alopex
+    4 00000000         ;     All rights reserved.
+    5 00000000         ;
+    6 00000000         ; @file       System.c
+    7 00000000         ; @brief      KEAZ128
+    8 00000000         ; @author     Alopex
+    9 00000000         ; @version    v1.0
+   10 00000000         ; @date       2016-09-17
+   11 00000000         ;
+   12 00000000         
+   13 00000000         ; AREA   StartUp, CODE, READONLY      ; name this block 
+                       of code
+   14 00000000         ;__StartUp
+   15 00000000         ;   EXPORT Reset_Handler
+   16 00000000         ;Reset_Handler
+   17 00000000         ;  LDR R0,=0        ; Initialize the GPRs
+   18 00000000         ;  LDR R1,=0
+   19 00000000         ;  LDR R2,=0
+   20 00000000         ;  LDR R3,=0
+   21 00000000         ;  LDR R4,=0
+   22 00000000         ;  LDR R5,=0
+   23 00000000         ;  LDR R6,=0
+   24 00000000         ;  LDR R7,=0
+   25 00000000         ;
+   26 00000000         ;  CPSIE i        ; Unmask interrupts
+   27 00000000         ;  IMPORT Start
+   28 00000000         ;  BL Start
+   29 00000000         ;__done
+   30 00000000         ;  B __done
+   31 00000000         ;  END
+                       
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0+ --apcs=inter
+work --depend=.\objects\startup.d -o.\objects\startup.o -I..\Start -ID:\十一届\
+MCU库\开发\KEA\KEA_LIB\USER\RTE\_My_KEA -ID:\MDK5.22\ARM\PACK\ARM\CMSIS\5.0.0\C
+MSIS\Include -ID:\MDK5.22\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include 
+--predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 522" --predefin
+e="_RTE_ SETA 1" --predefine="SKEAZ128xxx4 SETA 1" --list=.\listings\startup.ls
+t ..\Start\StartUp.s
+334 symbols in table

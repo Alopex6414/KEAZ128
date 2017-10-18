@@ -1,0 +1,114 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.22.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Helium Yuxing, TYUT, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.22
+Toolchain Path:  D:\MDK5.22\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.22
+Dialog DLL:      DARMCM1.DLL V1.15.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TARMCM1.DLL V1.11.0.0
+ 
+<h2>Project:</h2>
+D:\十一届\MCU库\开发\KEA\KEA_LIB\USER\My_KEA_Project.uvprojx
+Project File Date:  12/12/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\MDK5.22\ARM\ARMCC\Bin'
+Rebuild target 'My_KEA'
+compiling main.c...
+compiling Init.c...
+compiling ISR.c...
+compiling Conf.c...
+compiling ACMP.c...
+compiling ADC.c...
+..\Chip\ADC.c(131): warning:  #1-D: last line of file ends without a newline
+   
+..\Chip\ADC.c: 1 warning, 0 errors
+compiling CAN.c...
+compiling Delay.c...
+compiling FTM.c...
+compiling GPIO.c...
+..\Chip\GPIO.c(136): warning:  #1-D: last line of file ends without a newline
+   
+..\Chip\GPIO.c: 1 warning, 0 errors
+compiling I2C.c...
+..\Chip\I2C.c(88): warning:  #223-D: function "abs" declared implicitly
+  		 I2C_Dvalue = abs(I2C_SCL_Div - I2C_SCL_Divider[I2C_N]);
+..\Chip\I2C.c(179): warning:  #1-D: last line of file ends without a newline
+   
+..\Chip\I2C.c: 2 warnings, 0 errors
+compiling ICS.c...
+..\Chip\ICS.c(162): warning:  #1-D: last line of file ends without a newline
+   
+..\Chip\ICS.c: 1 warning, 0 errors
+compiling IRQ.c...
+..\Chip\IRQ.c(93): warning:  #1-D: last line of file ends without a newline
+   
+..\Chip\IRQ.c: 1 warning, 0 errors
+compiling PIT.c...
+compiling PWT.c...
+compiling SPI.c...
+..\Chip\SPI.c(93): warning:  #223-D: function "abs" declared implicitly
+  				 SPI_Diff = abs(SPI_Tmp - SPI_Clk);
+..\Chip\SPI.c(39): warning:  #550-D: variable "SPI_Fit_Clk"  was set but never used
+  	 uint32 SPI_Fit_Clk = 0;
+..\Chip\SPI.c(120): warning:  #1-D: last line of file ends without a newline
+   
+..\Chip\SPI.c: 3 warnings, 0 errors
+compiling UART.c...
+compiling WDOG.c...
+assembling StartUp.s...
+..\Start\StartUp.s(32): warning: A1313W: Missing END directive at end of file
+assembling startup_SKEAZ1284.s...
+compiling Vector.c...
+..\Start\Vector.c(18): warning:  #1-D: last line of file ends without a newline
+   
+..\Start\Vector.c: 1 warning, 0 errors
+compiling System.c...
+compiling system_SKEAZ1284.c...
+linking...
+Program Size: Code=5648 RO-data=224 RW-data=72 ZI-data=352  
+".\Objects\My_KEA_Project.axf" - 0 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.Kinetis_KEAxx_DFP.1.2.0.pack
+                Keil::Device:Startup:1.0.0
+                Freescale Kinetis KEAxx Series Device Support and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\十一届\MCU库\开发\KEA\KEA_LIB\USER\RTE\_My_KEA
+  D:\MDK5.22\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include
+  D:\MDK5.22\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\system_SKEAZ1284.c
+      Source file:   Device\Source\ARM\startup_SKEAZ1284.s
+Build Time Elapsed:  00:00:32
+</pre>
+</body>
+</html>

@@ -1,0 +1,98 @@
+Dependencies for Project 'My_KEA_Project', Target 'Target 1': (DO NOT MODIFY !)
+F (..\Src\CLK.c)(0x5461756D)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I..\Headers-I D:\十一届\MCU库\开发\KEA\KEA_LIB_develop\USER\RTE-I D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include-D_RTE_ -DSKEAZ128xxx4-o .\objects\clk.o --omf_browse .\objects\clk.crf --depend .\objects\clk.d)
+I (..\Headers\CLK.h)(0x546051CE)
+I (..\Headers\derivative.h)(0x54604ECA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\SKEAZ1284.h)(0x53E06D6E)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\system_SKEAZ1284.h)(0x53E06D6E)
+I (..\Headers\typedefs.h)(0x546052E7)
+F (..\Src\FTM.c)(0x54605323)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I..\Headers-I D:\十一届\MCU库\开发\KEA\KEA_LIB_develop\USER\RTE-I D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include-D_RTE_ -DSKEAZ128xxx4-o .\objects\ftm.o --omf_browse .\objects\ftm.crf --depend .\objects\ftm.d)
+I (..\Headers\FTM.h)(0x546051CE)
+I (..\Headers\derivative.h)(0x54604ECA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\SKEAZ1284.h)(0x53E06D6E)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\system_SKEAZ1284.h)(0x53E06D6E)
+I (..\Headers\typedefs.h)(0x546052E7)
+F (..\Src\LED.c)(0x54605A35)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I..\Headers-I D:\十一届\MCU库\开发\KEA\KEA_LIB_develop\USER\RTE-I D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include-D_RTE_ -DSKEAZ128xxx4-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\Headers\LED.h)(0x54605C69)
+I (..\Headers\derivative.h)(0x54604ECA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\SKEAZ1284.h)(0x53E06D6E)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\system_SKEAZ1284.h)(0x53E06D6E)
+I (..\Headers\typedefs.h)(0x546052E7)
+I (..\Headers\GPIO.h)(0x546051CE)
+F (..\Src\main.c)(0x57D62D9A)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I..\Headers-I D:\十一届\MCU库\开发\KEA\KEA_LIB_develop\USER\RTE-I D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include-D_RTE_ -DSKEAZ128xxx4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Headers\derivative.h)(0x54604ECA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\SKEAZ1284.h)(0x53E06D6E)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\system_SKEAZ1284.h)(0x53E06D6E)
+I (..\Headers\typedefs.h)(0x546052E7)
+I (..\Headers\CLK.h)(0x546051CE)
+I (..\Headers\GPIO.h)(0x546051CE)
+I (..\Headers\FTM.h)(0x546051CE)
+I (..\Headers\LED.h)(0x54605C69)
+I (..\Headers\Delay.h)(0x54605C28)
+I (..\Headers\OLED.h)(0x54606E55)
+I (..\Headers\UART.h)(0x546171AB)
+F (..\Src\Delay.c)(0x54616E11)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I..\Headers-I D:\十一届\MCU库\开发\KEA\KEA_LIB_develop\USER\RTE-I D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include-D_RTE_ -DSKEAZ128xxx4-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\Headers\Delay.h)(0x54605C28)
+I (..\Headers\derivative.h)(0x54604ECA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\SKEAZ1284.h)(0x53E06D6E)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\system_SKEAZ1284.h)(0x53E06D6E)
+I (..\Headers\typedefs.h)(0x546052E7)
+F (..\Src\OLED.c)(0x54606F2A)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I..\Headers-I D:\十一届\MCU库\开发\KEA\KEA_LIB_develop\USER\RTE-I D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include-D_RTE_ -DSKEAZ128xxx4-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+I (..\Headers\OLED.h)(0x54606E55)
+I (..\Headers\derivative.h)(0x54604ECA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\SKEAZ1284.h)(0x53E06D6E)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\system_SKEAZ1284.h)(0x53E06D6E)
+I (..\Headers\typedefs.h)(0x546052E7)
+I (..\Headers\GPIO.h)(0x546051CE)
+I (..\Headers\Ziku.h)(0x54607409)
+F (..\Src\Uart.c)(0x546173F3)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I..\Headers-I D:\十一届\MCU库\开发\KEA\KEA_LIB_develop\USER\RTE-I D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include-D_RTE_ -DSKEAZ128xxx4-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\Headers\UART.h)(0x546171AB)
+I (..\Headers\derivative.h)(0x54604ECA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\SKEAZ1284.h)(0x53E06D6E)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\system_SKEAZ1284.h)(0x53E06D6E)
+I (..\Headers\typedefs.h)(0x546052E7)
+F (..\Headers\CLK.h)(0x546051CE)()
+F (..\Headers\LED.h)(0x54605C69)()
+F (..\Headers\FTM.h)(0x546051CE)()
+F (..\Headers\Ziku.h)(0x54607409)()
+F (..\Headers\GPIO.h)(0x546051CE)()
+F (..\Headers\Delay.h)(0x54605C28)()
+F (..\Headers\OLED.h)(0x54606E55)()
+F (..\Headers\typedefs.h)(0x546052E7)()
+F (..\Headers\derivative.h)(0x54604ECA)()
+F (..\Headers\UART.h)(0x546171AB)()
+F (RTE\Device\SKEAZ128xxx4\startup_SKEAZ1284.s)(0x5461AF96)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\十一届\MCU库\开发\KEA\KEA_LIB_develop\USER\RTE-I D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include--pd "_RTE_ SETA 1" --pd "SKEAZ128xxx4 SETA 1"--list .\listings\startup_skeaz1284.lst --xref -o .\objects\startup_skeaz1284.o --depend .\objects\startup_skeaz1284.d)
+F (RTE\Device\SKEAZ128xxx4\system_SKEAZ1284.c)(0x53E06D6E)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I..\Headers-I D:\十一届\MCU库\开发\KEA\KEA_LIB_develop\USER\RTE-I D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include-D_RTE_ -DSKEAZ128xxx4-o .\objects\system_skeaz1284.o --omf_browse .\objects\system_skeaz1284.crf --depend .\objects\system_skeaz1284.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\SKEAZ1284.h)(0x53E06D6E)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\system_SKEAZ1284.h)(0x53E06D6E)

@@ -1,0 +1,13 @@
+.\objects\oled.o: ..\Chip\OLED.c
+.\objects\oled.o: ..\Chip\Common.h
+.\objects\oled.o: D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\SKEAZ1284.h
+.\objects\oled.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\oled.o: D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h
+.\objects\oled.o: D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\oled.o: D:\Keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\oled.o: D:\Keil5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include\system_SKEAZ1284.h
+.\objects\oled.o: ..\Chip\typedefs.h
+.\objects\oled.o: ..\App\Conf.h
+.\objects\oled.o: ..\Chip\OLED.h
+.\objects\oled.o: ..\Chip\GPIO.h
+.\objects\oled.o: ..\Chip\Ziku.h

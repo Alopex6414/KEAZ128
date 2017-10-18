@@ -1,0 +1,28 @@
+--cpu Cortex-M0+
+".\objects\main.o"
+".\objects\init.o"
+".\objects\isr.o"
+".\objects\conf.o"
+".\objects\acmp.o"
+".\objects\adc.o"
+".\objects\can.o"
+".\objects\delay.o"
+".\objects\ftm.o"
+".\objects\gpio.o"
+".\objects\i2c.o"
+".\objects\ics.o"
+".\objects\irq.o"
+".\objects\pit.o"
+".\objects\pwt.o"
+".\objects\spi.o"
+".\objects\uart.o"
+".\objects\wdog.o"
+".\objects\vector.o"
+".\objects\system.o"
+".\objects\startup.o"
+".\objects\startup_skeaz1284.o"
+".\objects\system_skeaz1284.o"
+--strict --scatter ".\Objects\My_KEA_Project.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\My_KEA_Project.map" -o .\Objects\My_KEA_Project.axf
